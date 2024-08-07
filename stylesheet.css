@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(33, 32, 32);
+}
+#header{
+    height: 150px;
+    background-color: black;
+    display: flex;
+}
+
+.images {
+    padding-top: 10px;  
+}
+.header_logo{
+    margin-left: 35%;
+    height: 200px;
+
+}
+#header2{
+    height: 150px;
+    background-color: black;
+}
+li{
+    color:  rgb(195, 194, 194);
+    display: inline;
+    padding-left: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+ul{
+    margin-top: 60px;
+}
+.banner{
+    margin-top: 10px;
+
+}
+#body{
+    display: flex;
+    
+}
+.men{
+    font-weight: bolder;
+    font-size: 35px;
+    padding-left: 20px;
+}
+.women{
+    font-weight: bolder;
+    font-size: 35px;
+    padding-left: 80p;
+}
+.kids{
+    
+    font-weight: bolder;
+    font-size: 35px;
+    padding-left: 80px;
+}
+h1, h2{
+    color: rgb(255, 239, 168);
+    font-weight: bolder;
+}
+#footer{
+    font-size: 20px;
+    color: rgb(195, 194, 194);
+}
+.box1{
+    padding-left: 0px;
+}
+.box2{
+    padding-left: 10px;
+}
+.box3{
+    padding-left: 10px;
+}
+.words{
+    display: flex;
+    color:  rgb(255, 239, 168);
+    font-size: 32px;
+    font-weight: bolder;
+    height: 100px;
+}
+.mens{
+    
+    margin-top: 20px;
+    border: solid black;
+    padding-left: 9%;
+    padding-right: 9%;
+    background-color: black;
+    padding-top: 20px;
+
+}
+.womens{
+    padding-left: 9%;
+    padding-top: 20px;
+    padding-right: 9%;
+    margin-top: 20px;
+    border: solid black;
+    background-color: black;
+}
+.makeup{
+    padding-left:8%;
+    padding-top: 20px;
+    padding-right: 8%;
+    border: solid black;
+    background-color: black;
+    margin-top: 20px;
+}
+.images, .images2, .images3{
+    display: flex;
+}
+.boxes { 
+    height: 600px;
+    width: 490px;
+    border: 4px solid ;
+    border-color: black;
+    border-style: groove;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.boxes:hover{
+    border: solid rgb(255, 239, 168) ;
+background-color: white;
+}
+@media only screen and (max-width:800px) {
+    #header{
+        width: 800px;
+        height: 150px;
+        
+    }
+    li{
+        display: inline;
+        padding: 0%;
+        margin: 0%;
+    padding-left: 25px;
+        
+    }
+    ul{
+        margin-top: 50px;
+        padding-left: 30px;
+    }
+    .banner{
+    img {
+        height: 100%;
+        width: 800px;
+    }
+}
+  #body{
+
+    img{
+        width: 266px;
+        height: 500px;
+    }
+  }
+  .words{
+    font-size: 20px;
+  }
+}
